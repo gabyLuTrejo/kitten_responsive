@@ -24,17 +24,11 @@ section {
   #fondo1, #fondo3, #gato2, #gato3 {
     display: none;
   }
-  #fondo2 {
-    display: flex;
-  }
 }
 
 @media (min-width: 480px) and (max-width: 768px){
   #fondo1, #fondo3, #gato1, #gato3 {
     display: none;
-  }
-  #fondo2, #gato2 {
-    display: flex;
   }
   #gato2 {
     width: 480px;
@@ -45,16 +39,10 @@ section {
   #fondo1, #fondo2, #gato1, #gato2 {
     display: none;
   }
-  #fondo3, #gato3 {
-    display: flex;
-  }
 }
 
 @media (max-width: 320px) {
   #fondo1, #fondo2, #gato1, #gato2, #gato3 {
     display: none;
-  }
-  #fondo3 {
-    display: flex;
   }
 }
