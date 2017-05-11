@@ -1,0 +1,15 @@
+section {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.fondo {
+  width: 100%;
+}
+
+.gato {
+  position: absolute;
+  width: 40%;
+  top: 150px;
+}
